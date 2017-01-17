@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en" ng-app="ItemApp">
+<head>
+  <meta charset="utf-8">
+  <title>HITdb &#8226; Heroes of Incredible Tales Database</title>
+	<meta property="og:title" content="HITdb - Heroes of Incredible Tales (HIT) Database" />
+	<meta property="og:url" content="" />
+	<meta property="og:description" content="HIT Sanctuary is your database for all things HIT." />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="1200" />
+	<meta name="description" content="HIT Sanctuary is your database for all things HIT.">
+	<meta name="keywords" content="hit,heroes of incredible tales,db,database" />
+  
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.13/datatables.min.js"></script><!--datatablejs-->
+</head>
+<body>
+<h1><img src="http://assets.tumblr.com/images/x.gif?v=1" class="homeicon" />HIT Sanctuary &#8226; Item Database</h1>
+<div id="bg" class="bg_index">
+    
+        
+        <section id="searchmenu">
+		<form action="search.html" method="get">
+		<input type="text" name="find" value="Search">
+		<input type="submit" value="?">
+		</form>
+		</section>
+
+        
+</div>
+<nav id="cssmenu">
+</nav>
+
+<div class="scopecontain">
+
+<div ng-view></div>
+</div>
+
+<footer style="margin-top:15rem;">
+	<div class="logo">HITdb</div>
+	<nav class="footer">
+		<p>For More HIT:</p>
+		<a href="http://vindictusinn.com/vindictus+guides">Guides and Other Resources</a>
+		<a href="http://vindictusinn.com/tagged/vindictus+gif">Vindictus .gifs</a>
+		<a href="http://vindictusinn.com/dyepreviewer">Dye Previewer</a>
+		<a href="http://vindictusinn.com/tagged/update">Future Content</a>
+	</nav>
+	<p class="disclaimer">Heroes of Incredible Tales content and materials are trademarks and copyrights of their respective publisher and its licensors. All rights reserved.<br /> This site is created and maintained by Moaany and is not affiliated with Nexon.</p>
+	
+</footer>
+    
+<script id="dsq-count-scr" src="//coronaplease.disqus.com/count.js" async></script>
+   
+</body>
+</html>
